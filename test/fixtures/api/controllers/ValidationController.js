@@ -1,6 +1,8 @@
 'use strict'
 require('@fabrix/fabrix')
 const Boom = require('boom')
+const {FabrixController} = require('@fabrix/fabrix/dist/common')
+
 /**
    * @module DefaultController
    *
@@ -8,7 +10,7 @@ const Boom = require('boom')
    * @see {@link http://fabrix.app/doc/api/controllers}
    * @this fabrixApp
    */
-module.exports = class ValidationController extends Controller {
+module.exports = class ValidationController extends FabrixController {
   fail(request, reply) {
     return {}
   }

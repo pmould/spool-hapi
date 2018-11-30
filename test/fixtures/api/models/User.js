@@ -1,5 +1,7 @@
 'use strict'
 const SequelizeResolver = require('@fabrix/spool-sequelize').SequelizeResolver
+
+const Model = require('@fabrix/fabrix/dist/common').FabrixModel
 require('@fabrix/fabrix')
 
 /**
