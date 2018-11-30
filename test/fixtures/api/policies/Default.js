@@ -1,6 +1,6 @@
 'use strict'
 require('@fabrix/fabrix')
-
+const Policy = require('@fabrix/fabrix/dist/common').FabrixPolicy
 /**
  * @module Default
  * @description Test document Policy
