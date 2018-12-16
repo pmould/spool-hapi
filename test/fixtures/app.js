@@ -15,12 +15,13 @@ const App = {
   config: {
     stores: {
       sqlitedev: {
+        migrate: 'drop',
         orm: 'sequelize',
-        database: 'dev',
-        storage: './.tmp/dev.sqlite',
+        database: 'Sequelize',
         host: '127.0.0.1',
-        dialect: 'sqlite',
-        migrate: 'drop'
+        dialect: 'postgres',
+        username: "postgres",
+        password: "postgres"
       }
     },
     models: {

@@ -1,5 +1,5 @@
 {
-  "name": "@fabrix/spool-hapi",
+  "name": "@fabrix/spool-hapi-test",
   "version": "1.6.0",
   "description": "Spool - Hapi.js. This spool binds the routes compiled in spool-router to a Hapi Server.",
   "scripts": {
@@ -47,8 +47,9 @@
   ],
   "dependencies": {
     "hapi": "^17",
-    "vision": "^5.4.0",
-    "lodash": "^4.17.5"
+    "lodash": "^4.17.5",
+    "pg": "^7.7.1",
+    "vision": "^5.4.0"
   },
   "devDependencies": {
     "@fabrix/fabrix": "^1.6.0",
